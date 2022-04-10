@@ -8,7 +8,7 @@ footer {
     height: 3rem;
     width:  3rem;
 }
-.footerbar-brand span{ /*Logo text*/
+.footerbar-brand span{ /*Logo text*/ 
     font-size: 1.7rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
