@@ -1,3 +1,27 @@
 h1{
     color: red;
 }
+footer {
+    background: #A9D9FA;
+  }
+.footerbar-brand img{
+    height: 3rem;
+    width:  3rem;
+}
+.footerbar-brand span{ /*Logo text*/ 
+    font-size: 1.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: #231F20;
+}
+a {
+    color: #508BCE;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+
+/*   brand colors */
+ 
+/* / brand colors*/
