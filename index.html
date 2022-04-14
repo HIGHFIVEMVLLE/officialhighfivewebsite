@@ -6,17 +6,43 @@
       <style>
           html{
               background-color: black;
+            }
+            img{
+              width: 30%;
+              height: auto;
+              margin-left: 34%;
+              margin-top: 9%;
+            }
+          @media(min-width: 100px){
+            img{
+              width: 35%;
+              height: auto;
+              /* margin-top: 50%; */
+              margin-left: 33%;
+            }
+            .wrapping_div{
+              height: 45vw;
+              /* background-color: red; */
+            }
           }
-          img{
-            width: 30%;
-            height: auto;
-            margin-left: 34%;
-            margin-top: 9%;
+          @media(min-width: 1000px){
+            img{
+              width: 30%;
+              height: auto;
+              margin-left: 33%;
+              margin-top: 9%;
+            }
+            .wrapping_div{
+              height: 0%;
+              width: 0%;
+              display: none;
+            }
           }
       </style>
    </head>
    <body>
      <div class="animation">
+       <div class="wrapping_div"></div>
        <img src="Images/loadinanimatvgif.gif" alt="loadingif">
      </div>
    </body>
